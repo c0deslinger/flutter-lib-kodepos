@@ -17,3 +17,7 @@
 ## 0.0.8-beta.1
 
 * Update dependency: Update getx to 5.0.0-release-candidate-6
+
+## 0.0.8-beta.2
+
+* Fix unmodifiableList
