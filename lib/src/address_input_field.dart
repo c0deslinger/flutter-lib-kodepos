@@ -63,7 +63,9 @@ class AddressInputField extends StatefulWidget {
 
 class AddressInputFieldState extends State<AddressInputField> {
   final ScrollController scrollController = ScrollController();
-  final RxList<ItemAddressValue> addressList = RxList<ItemAddressValue>();
+  RxList<ItemAddressValue> addressList =
+      RxList<ItemAddressValue>.empty(growable: true);
+      
   Timer? _inputDelayTimer;
   bool isLoading = false;
   final RxBool isSuggestionsVisible = false.obs;
