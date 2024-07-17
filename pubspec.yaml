@@ -1,6 +1,6 @@
 name: kodepos
 description: "The Flutter package offers offline access to comprehensive Indonesian administrative data, encompassing provinces, cities, districts, sub-districts, and postal codes."
-version: 0.0.8-beta.1
+version: 0.0.8-beta.2
 homepage: https://c0deslinger.github.io
 
 environment:
